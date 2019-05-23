@@ -1,0 +1,11 @@
+This works in Jupyter notebook in the pytorch_fastai environment.
+
+I had a dataset of 600 images. Some of them were bad. I wanted to see each image and decide whether to delete it quickly.
+
+I place the Delete_selected_images_general.ipynb file in the folder with the images I wanted to display.
+I then ran each line of the Delete_selected_images_general.ipynb file. In the last line, there is a loop which will show you 
+each image and then prompt you to delete it.
+If you press y + enter, the image will be PERMANENTLY deleted. File - gone.
+This suited me because my dataset was from google images and there was a lot of crap in it. 
+
+BE CAREFUL not to delete precious images.
